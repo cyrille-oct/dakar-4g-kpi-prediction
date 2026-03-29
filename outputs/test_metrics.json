@@ -1,0 +1,26 @@
+{
+  "Total_DataVol_GB": {
+    "model": "RandomForest",
+    "MAE": 0.4107,
+    "RMSE": 0.5206,
+    "R2": 0.993
+  },
+  "LTE_Avg_RRC_CU": {
+    "model": "RandomForest",
+    "MAE": 3.3054,
+    "RMSE": 4.2933,
+    "R2": 0.9882
+  },
+  "LTE_Cell_THP_DL_Mbps": {
+    "model": "RandomForest",
+    "MAE": 0.2488,
+    "RMSE": 0.2955,
+    "R2": 0.9633
+  },
+  "LTE_PrbUtil_DL_pct": {
+    "model": "Ridge",
+    "MAE": 0.8387,
+    "RMSE": 1.0533,
+    "R2": 0.9936
+  }
+}

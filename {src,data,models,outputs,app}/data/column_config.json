@@ -1,0 +1,38 @@
+{
+  "FEATURE_COLS": [
+    "Layer_enc",
+    "Cell_enc",
+    "BTS_enc",
+    "DayOfWeek",
+    "DayOfMonth",
+    "Month",
+    "WeekOfYear",
+    "IsWeekend",
+    "Overload_Flag",
+    "LTE_PDCCH_CCE_Load_pct",
+    "LTE_CFI3_Share_pct",
+    "LTE_CceAgg_1",
+    "LTE_CceAgg_2",
+    "LTE_CceAgg_4",
+    "LTE_CceAgg_8",
+    "PDCCH_Adm_Rej_Count",
+    "LTE_Max_RRC_CU",
+    "LTE_Active_UL_Users_TTI",
+    "SR_Fail_Ratio",
+    "PUCCH_SR_Cong_Count",
+    "DL_UL_Vol_Ratio",
+    "PRB_Total",
+    "Lat",
+    "Lon",
+    "Azimuth",
+    "PCI",
+    "EARFCN",
+    "TAC"
+  ],
+  "TARGET_COLS": [
+    "Total_DataVol_GB",
+    "LTE_Avg_RRC_CU",
+    "LTE_Cell_THP_DL_Mbps",
+    "LTE_PrbUtil_DL_pct"
+  ]
+}
